@@ -1,162 +1,666 @@
 ﻿<!DOCTYPE html>
 <html lang="fr">
+
 <head>
-<meta charset="UTF-8">
-<title>CV - Saïdou SY</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-<style>
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{--g:#00C96A;--c:#00A8D4;--d:#0A0F1A;--d2:#111827;--d3:#1A2332;--t:#E8F4FF;--m:#6B8CAE;--b:rgba(0,201,106,0.2)}
-@media print{body{-webkit-print-color-adjust:exact;print-color-adjust:exact}.no-print{display:none!important}.page{margin:0;border-radius:0;box-shadow:none}}
-body{font-family:'Inter',sans-serif;background:#0D1117;color:var(--t);min-height:100vh;display:flex;justify-content:center;padding:30px 15px;gap:16px;flex-direction:column;align-items:center}
-.print-btn{display:flex;align-items:center;gap:8px;background:var(--g);color:#0A0F1A;border:none;padding:12px 28px;border-radius:50px;font-family:'JetBrains Mono',monospace;font-weight:700;font-size:13px;cursor:pointer;box-shadow:0 0 20px rgba(0,201,106,0.4);text-decoration:none;transition:all 0.2s}
-.print-btn:hover{transform:scale(1.05);box-shadow:0 0 30px rgba(0,201,106,0.6)}
-.page{width:210mm;min-height:297mm;background:var(--d);border-radius:16px;overflow:hidden;box-shadow:0 0 80px rgba(0,201,106,0.1),0 40px 80px rgba(0,0,0,0.5);display:grid;grid-template-columns:220px 1fr}
-.sidebar{background:var(--d2);padding:32px 20px;border-right:1px solid var(--b);display:flex;flex-direction:column;gap:22px;position:relative}
-.sidebar::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--g),var(--c))}
-.photo-wrap{display:flex;flex-direction:column;align-items:center;gap:10px}
-.photo-ring{width:110px;height:110px;border-radius:50%;padding:2.5px;background:linear-gradient(135deg,var(--g),var(--c));box-shadow:0 0 20px rgba(0,201,106,0.3)}
-.photo-ring img{width:100%;height:100%;border-radius:50%;object-fit:cover;object-position:top;border:2px solid var(--d2)}
-.name-block{text-align:center}
-.name-block h1{font-size:18px;font-weight:700;color:#fff;line-height:1.2}
-.name-block .a{color:var(--g)}
-.name-block p{font-size:10px;color:var(--m);font-family:'JetBrains Mono',monospace;margin-top:4px}
-.dot-status{display:inline-flex;align-items:center;gap:5px;font-size:9px;font-family:'JetBrains Mono',monospace;color:var(--g);background:rgba(0,201,106,0.1);border:1px solid rgba(0,201,106,0.3);border-radius:20px;padding:3px 8px;margin-top:5px}
-.dot{width:5px;height:5px;background:var(--g);border-radius:50%;animation:p 2s infinite}
-@keyframes p{0%,100%{opacity:1}50%{opacity:0.3}}
-.sb-s{display:flex;flex-direction:column;gap:5px}
-.sb-t{font-size:8px;font-family:'JetBrains Mono',monospace;color:var(--g);letter-spacing:1.5px;text-transform:uppercase;border-bottom:1px solid var(--b);padding-bottom:4px;margin-bottom:3px}
-.sb-t::before{content:'// ';opacity:0.4}
-.ci{display:flex;align-items:flex-start;gap:6px;font-size:9.5px;color:var(--t);line-height:1.4}
-.ci-ic{color:var(--g);flex-shrink:0;margin-top:1px}
-.ci a{color:var(--c);text-decoration:none}
-.sk{margin-bottom:5px}
-.sk-l{display:flex;justify-content:space-between;font-size:9px;color:var(--t);margin-bottom:3px}
-.sk-p{color:var(--g);font-family:'JetBrains Mono',monospace}
-.sk-b{height:3px;background:rgba(255,255,255,0.08);border-radius:2px;overflow:hidden}
-.sk-f{height:100%;border-radius:2px;background:linear-gradient(90deg,var(--g),var(--c))}
-.tags{display:flex;flex-wrap:wrap;gap:3px}
-.tag{font-size:8.5px;font-family:'JetBrains Mono',monospace;color:var(--c);background:rgba(0,168,212,0.1);border:1px solid rgba(0,168,212,0.25);border-radius:4px;padding:2px 5px}
-.li{display:flex;justify-content:space-between;align-items:center;font-size:9px;color:var(--t);margin-bottom:4px}
-.ld{display:flex;gap:2px}
-.ldot{width:7px;height:7px;border-radius:50%}
-.lon{background:var(--g)}
-.lof{background:rgba(255,255,255,0.1)}
-.main{padding:28px 24px;display:flex;flex-direction:column;gap:18px}
-.st{font-size:9px;font-family:'JetBrains Mono',monospace;color:var(--g);letter-spacing:2px;text-transform:uppercase;margin-bottom:8px;display:flex;align-items:center;gap:6px}
-.st::after{content:'';flex:1;height:1px;background:var(--b)}
-.st span{opacity:0.4}
-.ps{background:var(--d3);border-radius:8px;padding:12px;font-size:9.5px;color:var(--m);line-height:1.65;border-left:3px solid var(--c);font-style:italic}
-.ps strong{color:var(--t);font-style:normal}
-.ei{margin-bottom:12px;padding-left:12px;border-left:2px solid var(--b);position:relative}
-.ei::before{content:'';position:absolute;left:-5px;top:4px;width:8px;height:8px;border-radius:50%;background:var(--g);box-shadow:0 0 8px rgba(0,201,106,0.5)}
-.ed{font-size:8px;font-family:'JetBrains Mono',monospace;color:var(--g);margin-bottom:2px}
-.et{font-size:11.5px;font-weight:600;color:#fff;margin-bottom:1px}
-.eo{font-size:9.5px;color:var(--c);font-style:italic;margin-bottom:4px}
-.edesc{font-size:9px;color:var(--m);line-height:1.5}
-.etags{display:flex;flex-wrap:wrap;gap:2px;margin-top:4px}
-.etag{font-size:7.5px;font-family:'JetBrains Mono',monospace;color:var(--g);background:rgba(0,201,106,0.08);border:1px solid rgba(0,201,106,0.2);border-radius:3px;padding:1px 4px}
-.edu{background:var(--d3);border-radius:8px;padding:10px 12px;margin-bottom:7px;border-left:3px solid var(--g)}
-.edu-d{font-size:8px;font-family:'JetBrains Mono',monospace;color:var(--g)}
-.edu-t{font-size:11px;font-weight:600;color:#fff;margin:1px 0}
-.edu-o{font-size:9px;color:var(--c);font-style:italic}
-.cg{display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px}
-.ci2{background:var(--d3);border-radius:6px;padding:8px;border:1px solid var(--b)}
-.cn{font-size:9px;font-weight:600;color:#fff;margin-bottom:2px}
-.cis{font-size:8px;color:var(--m)}
-.cb{font-size:7.5px;font-family:'JetBrains Mono',monospace;color:var(--g);margin-top:3px}
-</style>
+    <meta charset="UTF-8">
+    <title>CV - Saïdou SY</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0
+        }
+
+        :root {
+            --g: #00C96A;
+            --c: #00A8D4;
+            --d: #0A0F1A;
+            --d2: #111827;
+            --d3: #1A2332;
+            --t: #E8F4FF;
+            --m: #6B8CAE;
+            --b: rgba(0, 201, 106, 0.2)
+        }
+
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact
+            }
+
+            .no-print {
+                display: none !important
+            }
+
+            .page {
+                margin: 0;
+                border-radius: 0;
+                box-shadow: none
+            }
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #0D1117;
+            color: var(--t);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            padding: 30px 15px;
+            gap: 16px;
+            flex-direction: column;
+            align-items: center
+        }
+
+        .print-btn {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--g);
+            color: #0A0F1A;
+            border: none;
+            padding: 12px 28px;
+            border-radius: 50px;
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: 700;
+            font-size: 13px;
+            cursor: pointer;
+            box-shadow: 0 0 20px rgba(0, 201, 106, 0.4);
+            text-decoration: none;
+            transition: all 0.2s
+        }
+
+        .print-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 30px rgba(0, 201, 106, 0.6)
+        }
+
+        .page {
+            width: 210mm;
+            min-height: 297mm;
+            background: var(--d);
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 0 80px rgba(0, 201, 106, 0.1), 0 40px 80px rgba(0, 0, 0, 0.5);
+            display: grid;
+            grid-template-columns: 220px 1fr
+        }
+
+        .sidebar {
+            background: var(--d2);
+            padding: 32px 20px;
+            border-right: 1px solid var(--b);
+            display: flex;
+            flex-direction: column;
+            gap: 22px;
+            position: relative
+        }
+
+        .sidebar::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--g), var(--c))
+        }
+
+        .photo-wrap {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px
+        }
+
+        .photo-ring {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            padding: 2.5px;
+            background: linear-gradient(135deg, var(--g), var(--c));
+            box-shadow: 0 0 20px rgba(0, 201, 106, 0.3)
+        }
+
+        .photo-ring img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: top;
+            border: 2px solid var(--d2)
+        }
+
+        .name-block {
+            text-align: center
+        }
+
+        .name-block h1 {
+            font-size: 18px;
+            font-weight: 700;
+            color: #fff;
+            line-height: 1.2
+        }
+
+        .name-block .a {
+            color: var(--g)
+        }
+
+        .name-block p {
+            font-size: 10px;
+            color: var(--m);
+            font-family: 'JetBrains Mono', monospace;
+            margin-top: 4px
+        }
+
+        .dot-status {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 9px;
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--g);
+            background: rgba(0, 201, 106, 0.1);
+            border: 1px solid rgba(0, 201, 106, 0.3);
+            border-radius: 20px;
+            padding: 3px 8px;
+            margin-top: 5px
+        }
+
+        .dot {
+            width: 5px;
+            height: 5px;
+            background: var(--g);
+            border-radius: 50%;
+            animation: p 2s infinite
+        }
+
+        @keyframes p {
+
+            0%,
+            100% {
+                opacity: 1
+            }
+
+            50% {
+                opacity: 0.3
+            }
+        }
+
+        .sb-s {
+            display: flex;
+            flex-direction: column;
+            gap: 5px
+        }
+
+        .sb-t {
+            font-size: 8px;
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--g);
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            border-bottom: 1px solid var(--b);
+            padding-bottom: 4px;
+            margin-bottom: 3px
+        }
+
+        .sb-t::before {
+            content: '// ';
+            opacity: 0.4
+        }
+
+        .ci {
+            display: flex;
+            align-items: flex-start;
+            gap: 6px;
+            font-size: 9.5px;
+            color: var(--t);
+            line-height: 1.4
+        }
+
+        .ci-ic {
+            color: var(--g);
+            flex-shrink: 0;
+            margin-top: 1px
+        }
+
+        .ci a {
+            color: var(--c);
+            text-decoration: none
+        }
+
+        .sk {
+            margin-bottom: 5px
+        }
+
+        .sk-l {
+            display: flex;
+            justify-content: space-between;
+            font-size: 9px;
+            color: var(--t);
+            margin-bottom: 3px
+        }
+
+        .sk-p {
+            color: var(--g);
+            font-family: 'JetBrains Mono', monospace
+        }
+
+        .sk-b {
+            height: 3px;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 2px;
+            overflow: hidden
+        }
+
+        .sk-f {
+            height: 100%;
+            border-radius: 2px;
+            background: linear-gradient(90deg, var(--g), var(--c))
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 3px
+        }
+
+        .tag {
+            font-size: 8.5px;
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--c);
+            background: rgba(0, 168, 212, 0.1);
+            border: 1px solid rgba(0, 168, 212, 0.25);
+            border-radius: 4px;
+            padding: 2px 5px
+        }
+
+        .li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 9px;
+            color: var(--t);
+            margin-bottom: 4px
+        }
+
+        .ld {
+            display: flex;
+            gap: 2px
+        }
+
+        .ldot {
+            width: 7px;
+            height: 7px;
+            border-radius: 50%
+        }
+
+        .lon {
+            background: var(--g)
+        }
+
+        .lof {
+            background: rgba(255, 255, 255, 0.1)
+        }
+
+        .main {
+            padding: 28px 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 18px
+        }
+
+        .st {
+            font-size: 9px;
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--g);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 6px
+        }
+
+        .st::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--b)
+        }
+
+        .st span {
+            opacity: 0.4
+        }
+
+        .ps {
+            background: var(--d3);
+            border-radius: 8px;
+            padding: 12px;
+            font-size: 9.5px;
+            color: var(--m);
+            line-height: 1.65;
+            border-left: 3px solid var(--c);
+            font-style: italic
+        }
+
+        .ps strong {
+            color: var(--t);
+            font-style: normal
+        }
+
+        .ei {
+            margin-bottom: 12px;
+            padding-left: 12px;
+            border-left: 2px solid var(--b);
+            position: relative
+        }
+
+        .ei::before {
+            content: '';
+            position: absolute;
+            left: -5px;
+            top: 4px;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--g);
+            box-shadow: 0 0 8px rgba(0, 201, 106, 0.5)
+        }
+
+        .ed {
+            font-size: 8px;
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--g);
+            margin-bottom: 2px
+        }
+
+        .et {
+            font-size: 11.5px;
+            font-weight: 600;
+            color: #fff;
+            margin-bottom: 1px
+        }
+
+        .eo {
+            font-size: 9.5px;
+            color: var(--c);
+            font-style: italic;
+            margin-bottom: 4px
+        }
+
+        .edesc {
+            font-size: 9px;
+            color: var(--m);
+            line-height: 1.5
+        }
+
+        .etags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2px;
+            margin-top: 4px
+        }
+
+        .etag {
+            font-size: 7.5px;
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--g);
+            background: rgba(0, 201, 106, 0.08);
+            border: 1px solid rgba(0, 201, 106, 0.2);
+            border-radius: 3px;
+            padding: 1px 4px
+        }
+
+        .edu {
+            background: var(--d3);
+            border-radius: 8px;
+            padding: 10px 12px;
+            margin-bottom: 7px;
+            border-left: 3px solid var(--g)
+        }
+
+        .edu-d {
+            font-size: 8px;
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--g)
+        }
+
+        .edu-t {
+            font-size: 11px;
+            font-weight: 600;
+            color: #fff;
+            margin: 1px 0
+        }
+
+        .edu-o {
+            font-size: 9px;
+            color: var(--c);
+            font-style: italic
+        }
+
+        .cg {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 6px
+        }
+
+        .ci2 {
+            background: var(--d3);
+            border-radius: 6px;
+            padding: 8px;
+            border: 1px solid var(--b)
+        }
+
+        .cn {
+            font-size: 9px;
+            font-weight: 600;
+            color: #fff;
+            margin-bottom: 2px
+        }
+
+        .cis {
+            font-size: 8px;
+            color: var(--m)
+        }
+
+        .cb {
+            font-size: 7.5px;
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--g);
+            margin-top: 3px
+        }
+    </style>
 </head>
+
 <body>
-<a class="print-btn no-print" onclick="window.print()">&#11015; Telecharger en PDF</a>
-<div class="page">
-<aside class="sidebar">
-<div class="photo-wrap">
-<div class="photo-ring"><img src="profile-pic.png" alt="Saïdou SY" onerror="this.style.background='linear-gradient(135deg,#00C96A,#00A8D4)'"/></div>
-<div class="name-block">
-<h1> Saïdou <span class="a">SY</span></h1>
-<p>Informatique de Gestion</p>
-<div class="dot-status"><span class="dot"></span> Disponible</div>
-</div>
-</div>
-<div class="sb-s">
-<div class="sb-t">Contact</div>
-<div class="ci"><span class="ci-ic">&#9993;</span><a href="mailto:Saidousy0008@gmail.com">Saidousy0008@gmail.com</a></div>
-<div class="ci"><span class="ci-ic">&#128241;</span><span>+221 77 859 58 00</span></div>
-<div class="ci"><span class="ci-ic">&#128205;</span><span>Mariste, Dakar, Senegal</span></div>
-<div class="ci"><span class="ci-ic">&#128279;</span><a href="https://linkedin.com/in/saidou-sy">LinkedIn / Saïdou SY</a></div>
-</div>
-<div class="sb-s">
-<div class="sb-t">Competences</div>
-<div class="sk"><div class="sk-l"><span>Graphisme Canva</span><span class="sk-p">95%</span></div><div class="sk-b"><div class="sk-f" style="width:95%"></div></div></div>
-<div class="sk"><div class="sk-l"><span>Informatique Gestion</span><span class="sk-p">90%</span></div><div class="sk-b"><div class="sk-f" style="width:90%"></div></div></div>
-<div class="sk"><div class="sk-l"><span>WordPress & CMS</span><span class="sk-p">88%</span></div><div class="sk-b"><div class="sk-f" style="width:88%"></div></div></div>
-<div class="sk"><div class="sk-l"><span>Hardware & Reseaux</span><span class="sk-p">90%</span></div><div class="sk-b"><div class="sk-f" style="width:90%"></div></div></div>
-<div class="sk"><div class="sk-l"><span>Marketing Digital</span><span class="sk-p">82%</span></div><div class="sk-b"><div class="sk-f" style="width:82%"></div></div></div>
-<div class="sk"><div class="sk-l"><span>Gestion Agile</span><span class="sk-p">85%</span></div><div class="sk-b"><div class="sk-f" style="width:85%"></div></div></div>
-</div>
-<div class="sb-s">
-<div class="sb-t">Outils & Tech</div>
-<div class="tags">
-<span class="tag">Canva Pro</span><span class="tag">WordPress</span><span class="tag">JS</span><span class="tag">Win Server</span>
-<span class="tag">Active Dir.</span><span class="tag">MySQL</span><span class="tag">HTML/CSS</span><span class="tag">SGBD</span>
-<span class="tag">PHP</span><span class="tag">Cisco</span><span class="tag">MERISE</span><span class="tag">JAVA</span>
-<span class="tag">DHCP/DNS</span><span class="tag">VLAN</span><span class="tag">Scrum</span>
-</div>
-</div>
-<div class="sb-s">
-<div class="sb-t">Langues</div>
-<div class="li"><span>Francais</span><div class="ld"><span class="ldot lon"></span><span class="ldot lon"></span><span class="ldot lon"></span><span class="ldot lon"></span><span class="ldot lon"></span></div></div>
-<div class="li"><span>Wolof</span><div class="ld"><span class="ldot lon"></span><span class="ldot lon"></span><span class="ldot lon"></span><span class="ldot lon"></span><span class="ldot lon"></span></div></div>
-<div class="li"><span>Poulard</span><div class="ld"><span class="ldot lon"></span><span class="ldot lon"></span><span class="ldot lon"></span><span class="ldot lon"></span><span class="ldot lon"></span></div></div>
-<div class="li"><span>Anglais</span><div class="ld"><span class="ldot lon"></span><span class="ldot lon"></span><span class="ldot lon"></span><span class="ldot lof"></span><span class="ldot lof"></span></div></div>
-</div>
-</aside>
-<main class="main">
-<div>
-<div class="st"><span>01</span> Profil</div>
-<div class="ps">Etudiant en <strong>Licence 2 Informatique de Gestion</strong> (ENSUP Afrique Dakar, CAMES &amp; ANAQ-SUP). Mon stage au <strong>CHRO de Ourossogui</strong> (70+ postes, Windows Server, Active Directory) m'a donne une solide experience terrain. Createur graphique <strong>Canva Pro</strong> depuis +5 ans. Curieux, rigoureux et oriente resultats.</div>
-</div>
-<div>
-<div class="st"><span>02</span> Formation</div>
-<div class="edu"><div class="edu-d">2023 - 2025 (Licence 2 validee)</div><div class="edu-t">Licence en Informatique de Gestion</div><div class="edu-o">ENSUP Afrique - Dakar, Senegal (CAMES &amp; ANAQ-SUP)</div></div>
-<div class="edu" style="border-left-color:var(--c)"><div class="edu-d">Juillet 2022</div><div class="edu-t">Baccalaureat Scientifique (S2)</div><div class="edu-o">Lycee El Hadji Yero Basse - Ourossogui</div></div>
-<div class="edu" style="border-left-color:rgba(0,201,106,0.4)"><div class="edu-d">Juillet 2019</div><div class="edu-t">BFEM</div><div class="edu-o">CEM 3 de Tivaouane</div></div>
-</div>
-<div>
-<div class="st"><span>03</span> Experience</div>
-<div class="ei">
-<div class="ed">OCT. 2024 - NOV. 2024</div>
-<div class="et">Stagiaire en Informatique de Gestion</div>
-<div class="eo">Centre Hospitalier Regional de Ourossogui (CHRO)</div>
-<div class="edesc">Gestion de 70+ ordinateurs, 12 switches, 6 routeurs, 36 imprimantes et 2 serveurs. Deploiement Windows Server (Active Directory, DNS, DHCP, GPO), helpdesk N1/N2, VLAN, HOPITALIA & Ciel Compta.</div>
-<div class="etags"><span class="etag">Windows Server</span><span class="etag">Active Directory</span><span class="etag">DHCP/DNS</span><span class="etag">Gestion Parc</span><span class="etag">VLAN</span><span class="etag">Helpdesk N1/N2</span></div>
-</div>
-<div class="ei" style="border-left-color:rgba(0,168,212,0.4)">
-<div class="ed" style="color:var(--c)">JUIN 2019 - PRESENT (+5 ANS)</div>
-<div class="et">Designer Graphiste (Canva Pro)</div>
-<div class="eo">Independant / Projets & Entreprises</div>
-<div class="edesc">Identites visuelles, logotypes, chartes graphiques, affiches, bannières et visuels reseaux sociaux.</div>
-<div class="etags"><span class="etag" style="color:var(--c);background:rgba(0,168,212,0.08);border-color:rgba(0,168,212,0.2)">Canva Pro</span><span class="etag" style="color:var(--c);background:rgba(0,168,212,0.08);border-color:rgba(0,168,212,0.2)">Branding</span><span class="etag" style="color:var(--c);background:rgba(0,168,212,0.08);border-color:rgba(0,168,212,0.2)">Direction Artistique</span></div>
-</div>
-<div class="ei">
-<div class="ed">2023 - PRESENT</div>
-<div class="et">Concepteur Web & Specialiste WordPress</div>
-<div class="eo">Projets Web & Cursa Certified</div>
-<div class="edesc">Sites vitrines WordPress, integration, securisation, optimisation performance et conformite mobile/SEO.</div>
-<div class="etags"><span class="etag">WordPress</span><span class="etag">HTML/CSS</span><span class="etag">PHP</span><span class="etag">SEO</span></div>
-</div>
-</div>
-<div>
-<div class="st"><span>04</span> Certifications</div>
-<div class="cg">
-<div class="ci2"><div class="cn">Computer Hardware Basics</div><div class="cis">Cisco Networking Academy</div><div class="cb">Badge verifie</div></div>
-<div class="ci2"><div class="cn">Creation de Sites WordPress</div><div class="cis">Cursa - John Taleb</div><div class="cb">Code: u6580053</div></div>
-<div class="ci2"><div class="cn">Marketing Digital Complet</div><div class="cis">Cursa - Ludo Salenne</div><div class="cb">Code: u6580053</div></div>
-</div>
-</div>
-</main>
-</div>
+    <a class="print-btn no-print" onclick="window.print()">&#11015; Telecharger en PDF</a>
+    <div class="page">
+        <aside class="sidebar">
+            <div class="photo-wrap">
+                <div class="photo-ring"><img src="profile-pic.png" alt="Saïdou SY"
+                        onerror="this.style.background='linear-gradient(135deg,#00C96A,#00A8D4)'" /></div>
+                <div class="name-block">
+                    <h1> Saïdou <span class="a">SY</span></h1>
+                    <p>Informatique de Gestion</p>
+                    <div class="dot-status"><span class="dot"></span> Disponible</div>
+                </div>
+            </div>
+            <div class="sb-s">
+                <div class="sb-t">Contact</div>
+                <div class="ci"><span class="ci-ic">&#9993;</span><a
+                        href="mailto:Saidousy0008@gmail.com">Saidousy0008@gmail.com</a></div>
+                <div class="ci"><span class="ci-ic">&#128241;</span><span>+221 77 859 58 00</span></div>
+                <div class="ci"><span class="ci-ic">&#128205;</span><span>Mariste, Dakar, Senegal</span></div>
+                <div class="ci"><span class="ci-ic">&#128279;</span><a href="https://linkedin.com/in/saidou-sy">LinkedIn
+                        / Saïdou SY</a></div>
+            </div>
+            <div class="sb-s">
+                <div class="sb-t">Competences</div>
+                <div class="sk">
+                    <div class="sk-l"><span>Hardware PC & Support Helpdesk</span><span class="sk-p">90%</span></div>
+                    <div class="sk-b">
+                        <div class="sk-f" style="width:90%"></div>
+                    </div>
+                </div>
+                <div class="sk">
+                    <div class="sk-l"><span>Admin Système (Windows Server, AD, GPO)</span><span class="sk-p">80%</span>
+                    </div>
+                    <div class="sk-b">
+                        <div class="sk-f" style="width:80%"></div>
+                    </div>
+                </div>
+                <div class="sk">
+                    <div class="sk-l"><span>WordPress & CMS</span><span class="sk-p">88%</span></div>
+                    <div class="sk-b">
+                        <div class="sk-f" style="width:88%"></div>
+                    </div>
+                </div>
+                <div class="sk">
+                    <div class="sk-l"><span>Réseaux & Infrastructure (VLAN, Cisco)</span><span class="sk-p">75%</span>
+                    </div>
+                    <div class="sk-b">
+                        <div class="sk-f" style="width:75%"></div>
+                    </div>
+                </div>
+                <div class="sk">
+                    <div class="sk-l"><span>Marketing Digital</span><span class="sk-p">82%</span></div>
+                    <div class="sk-b">
+                        <div class="sk-f" style="width:82%"></div>
+                    </div>
+                </div>
+                <div class="sk">
+                    <div class="sk-l"><span>Bases de Données & SQL (PHP, MySQL)</span><span class="sk-p">85%</span>
+                    </div>
+                    <div class="sk-b">
+                        <div class="sk-f" style="width:85%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="sb-s">
+                <div class="sb-t">Outils & Tech</div>
+                <div class="tags">
+                    <span class="tag">Canva Pro</span><span class="tag">WordPress</span><span class="tag">JS</span><span
+                        class="tag">Win Server</span>
+                    <span class="tag">Active Dir.</span><span class="tag">MySQL</span><span
+                        class="tag">HTML/CSS</span><span class="tag">SGBD</span>
+                    <span class="tag">PHP</span><span class="tag">Cisco</span><span class="tag">MERISE</span><span
+                        class="tag">JAVA</span>
+                    <span class="tag">DHCP/DNS</span><span class="tag">VLAN</span><span class="tag">Scrum</span>
+                </div>
+            </div>
+            <div class="sb-s">
+                <div class="sb-t">Langues</div>
+                <div class="li"><span>Francais</span>
+                    <div class="ld"><span class="ldot lon"></span><span class="ldot lon"></span><span
+                            class="ldot lon"></span><span class="ldot lon"></span><span class="ldot lon"></span></div>
+                </div>
+                <div class="li"><span>Wolof</span>
+                    <div class="ld"><span class="ldot lon"></span><span class="ldot lon"></span><span
+                            class="ldot lon"></span><span class="ldot lon"></span><span class="ldot lon"></span></div>
+                </div>
+                <div class="li"><span>Poulard</span>
+                    <div class="ld"><span class="ldot lon"></span><span class="ldot lon"></span><span
+                            class="ldot lon"></span><span class="ldot lon"></span><span class="ldot lon"></span></div>
+                </div>
+                <div class="li"><span>Anglais</span>
+                    <div class="ld"><span class="ldot lon"></span><span class="ldot lon"></span><span
+                            class="ldot lon"></span><span class="ldot lof"></span><span class="ldot lof"></span></div>
+                </div>
+            </div>
+        </aside>
+        <main class="main">
+            <div>
+                <div class="st"><span>01</span> Profil</div>
+                <div class="ps">Etudiant en <strong>Licence 3 Informatique de Gestion</strong> (ENSUP Afrique Dakar,
+                    CAMES &amp; ANAQ-SUP). Mon stage au <strong>CHRO de Ourossogui</strong> (70+ postes, Windows Server,
+                    Active Directory) m'a donne une solide experience terrain. Createur graphique <strong>Canva
+                        Pro</strong> suite à la validation de ma Licence 2 (2024–2026).Disponible immédiatement pour un
+                    stage de fin d'études ou des opportunités en alternance/CDI (Présentiel à Dakar ou Remote).</div>
+            </div>
+            <div>
+                <div class="st"><span>02</span> Formation</div>
+                <div class="edu">
+                    <div class="edu-d">2025 (Licence 3 en cour)</div>
+                    <div class="edu-t">Licence en Informatique de Gestion</div>
+                    <div class="edu-o">ENSUP Afrique - Dakar, Senegal (CAMES &amp; ANAQ-SUP)</div>
+                </div>
+                <div class="edu" style="border-left-color:var(--c)">
+                    <div class="edu-d">Juillet 2022</div>
+                    <div class="edu-t">Baccalaureat Scientifique (S2)</div>
+                    <div class="edu-o">Lycee El Hadji Yero Basse - Ourossogui</div>
+                </div>
+                <div class="edu" style="border-left-color:rgba(0,201,106,0.4)">
+                    <div class="edu-d">Juillet 2019</div>
+                    <div class="edu-t">BFEM</div>
+                    <div class="edu-o">CEM 3 de Tivaouane</div>
+                </div>
+            </div>
+            <div>
+                <div class="st"><span>03</span> Experience</div>
+                <div class="ei">
+                    <div class="ed">OCT. 2025 - DEC. 2025</div>
+                    <div class="et">Stagiaire en Informatique de Gestion</div>
+                    <div class="eo">Centre Hospitalier Regional de Ourossogui (CHRO)</div>
+                    <div class="edesc">Gestion de 70+ ordinateurs, 12 switches, 6 routeurs, 36 imprimantes et 2
+                        serveurs. Deploiement Windows Server (Active Directory, DNS, DHCP, GPO), helpdesk N1/N2, VLAN,
+                        HOPITALIA & Ciel Compta.</div>
+                    <div class="etags"><span class="etag">Windows Server</span><span class="etag">Active
+                            Directory</span><span class="etag">DHCP/DNS</span><span class="etag">Gestion
+                            Parc</span><span class="etag">VLAN</span><span class="etag">Helpdesk N1/N2</span></div>
+                </div>
+                <div class="ei" style="border-left-color:rgba(0,168,212,0.4)">
+                    <div class="ed" style="color:var(--c)">JUIN 2019 - PRESENT (+5 ANS)</div>
+                    <div class="et">Designer Graphiste</div>
+                    <div class="eo">Independant / Projets & Entreprises</div>
+                    <div class="edesc">Identites visuelles, logotypes, chartes graphiques, affiches, bannières et
+                        visuels reseaux sociaux.</div>
+                    <div class="etags"><span class="etag"
+                            style="color:var(--c);background:rgba(0,168,212,0.08);border-color:rgba(0,168,212,0.2)">Canva
+                            Pro</span><span class="etag"
+                            style="color:var(--c);background:rgba(0,168,212,0.08);border-color:rgba(0,168,212,0.2)">Branding</span><span
+                            class="etag"
+                            style="color:var(--c);background:rgba(0,168,212,0.08);border-color:rgba(0,168,212,0.2)">Direction
+                            Artistique</span></div>
+                </div>
+                <div class="ei">
+                    <div class="ed">2023 - PRESENT</div>
+                    <div class="et">Concepteur Web & Specialiste WordPress</div>
+                    <div class="eo">Projets Web & Cursa Certified</div>
+                    <div class="edesc">Sites vitrines WordPress, integration, securisation, optimisation performance et
+                        conformite mobile/SEO.</div>
+                    <div class="etags"><span class="etag">WordPress</span><span class="etag">HTML/CSS</span><span
+                            class="etag">PHP</span><span class="etag">SEO</span></div>
+                </div>
+            </div>
+            <div>
+                <div class="st"><span>04</span> Certifications</div>
+                <div class="cg">
+                    <div class="ci2">
+                        <div class="cn">Computer Hardware Basics</div>
+                        <div class="cis">Cisco Networking Academy</div>
+                        <div class="cb">Badge verifie</div>
+                    </div>
+                    <div class="ci2">
+                        <div class="cn">Creation de Sites WordPress</div>
+                        <div class="cis">Cursa - John Taleb</div>
+                        <div class="cb">Code: u6580053</div>
+                    </div>
+                    <div class="ci2">
+                        <div class="cn">Marketing Digital Complet</div>
+                        <div class="cis">Cursa - Ludo Salenne</div>
+                        <div class="cb">Code: u6580053</div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
 </body>
+
 </html>
