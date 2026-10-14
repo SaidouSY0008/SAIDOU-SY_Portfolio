@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+﻿import React, { useEffect, useRef, useState } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import {
@@ -115,7 +115,7 @@ export default function App() {
   ];
 
   const gmailUrl = "https://mail.google.com/mail/?view=cm&fs=1&to=Saidousy0008@gmail.com&su=Collaboration%20-%20Saïdou%20SY&body=Bonjour%20Saïdou,";
-  const linkedinUrl = "https://www.linkedin.com/in/seydousy152";
+  const linkedinUrl = "https://www.linkedin.com/in/saidou-sy-3a007b374";
 
   const navLinks = [
     ['#about', 'À Propos'],
@@ -556,7 +556,7 @@ export default function App() {
               <div className="p-3 rounded-xl group-hover:scale-110 transition-transform" style={{ background: `${CYAN}12` }}><Linkedin size={22} style={{ color: CYAN }} /></div>
               <div className="text-center">
                 <span className="font-mono text-[10px] text-text/50 uppercase block mb-1">LinkedIn</span>
-                <span className="text-xs text-white font-mono font-medium">Saïdou SY</span>
+                <span className="text-xs text-white font-mono font-medium">SAIDOU SY</span>
               </div>
               <div className="flex gap-2 w-full">
                 <a href={linkedinUrl} target="_blank" rel="noopener noreferrer"
